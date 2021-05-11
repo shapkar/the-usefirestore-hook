@@ -14,7 +14,7 @@ Start the project using yarn
 
 `$ yarn start`
 
-Make sure you have allowed writes and reads in the cloud firestore security rules,
+Make sure you have allowed writes and reads in your cloud firestore security rules,
 then click the "Add mock data" button on the home page.
 
 ![](https://i.ibb.co/NyTMgtm/Screenshot-2021-05-11-at-20-20-00.png)
