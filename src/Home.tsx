@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Button from 'react-bootstrap/Button';
 import classnames from 'classnames';
-import { db } from 'app/firebase';
+import { db } from 'firebase-config/firebase';
 import { notifications } from './__mocks__/notifications';
 import { users } from './__mocks__/users';
 

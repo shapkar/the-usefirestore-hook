@@ -9,7 +9,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { actions } from 'slices/documentExample';
 import { DocumentExample } from 'models/documentExample';
-import { db } from 'app/firebase';
+import { db } from 'firebase-config/firebase';
 
 function DocListener() {
     const [value, setValue] = useState<string>('');

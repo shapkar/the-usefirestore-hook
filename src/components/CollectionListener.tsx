@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import { db } from 'app/firebase';
+import { db } from 'firebase-config/firebase';
 
 function CollectionListener() {
     const [data, setData] = useState<{title?: string, description?: string}>({});
